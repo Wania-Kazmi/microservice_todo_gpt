@@ -47,7 +47,7 @@ Before you begin, ensure you have the following installed on your local machine:
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/Wania-Kazmi/Todo_GPT.git
+   git clone https://github.com/Wania-Kazmi/microservice_todo_gpt.git
    cd todo-app
    ```
 
@@ -60,7 +60,7 @@ Before you begin, ensure you have the following installed on your local machine:
    DATABASE_URL=postgresql://waniakazmi:my_password@postgres_db:5432/todo_db
 
    # Frontend (.env.local)
-   NEXT_PUBLIC_API_URL=https://web.wania.xyz/api
+   NEXT_PUBLIC_API_URL=https://localhost:8001/
    ```
 
 3. **Install Dependencies**:
@@ -173,6 +173,10 @@ To make your application accessible from the internet:
    Your custom GPT can be accessed via the following URL:
 
    [Task Manager Assistant GPT](https://chatgpt.com/g/g-VbDzJGI77-task-manager-assistant)
+
+   Here’s a screenshot of the Task Manager Assistant GPT:
+
+   ![Task Manager Assistant GPT](./assets/gpt.PNG)
 
 ## Troubleshooting
 
