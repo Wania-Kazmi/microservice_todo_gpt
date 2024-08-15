@@ -17,8 +17,9 @@ This project is a full-stack Todo application built using FastAPI for the backen
 5. [API Documentation](#api-documentation)
 6. [Using the Application](#using-the-application)
 7. [Deploying with Cloudflare Tunnel](#deploying-with-cloudflare-tunnel)
-8. [Troubleshooting](#troubleshooting)
-9. [Contributing](#contributing)
+8. [Project Testing](#project-testing)
+9. [Troubleshooting](#troubleshooting)
+10. [Contributing](#contributing)
 
 
 ## Project Overview
@@ -47,8 +48,8 @@ Before you begin, ensure you have the following installed on your local machine:
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/Wania-Kazmi/microservice_todo_gpt.git
-   cd todo-app
+   git clone https://github.com/panaversity/learn-applied-generative-ai-fundamentals.git
+   cd 15_gpt_actions/00b_fastapi_todo_gpt
    ```
 
 2. **Set Up Environment Variables**:
@@ -168,7 +169,7 @@ To make your application accessible from the internet:
 
    The Cloudflare Tunnel will provide you with a URL like `https://your-tunnel-name.trycloudflare.com`, which you can use as the public endpoint.
 
-   <b>Note:</b> I used custom domain link of cloudflare, in this case my domain link will be persistent that is https://web.wania.xyz/.
+   <b>Note:</b> This project uses a custom domain linked via Cloudflare, resulting in a persistent URL: https://web.wania.xyz/. You will encounter this URL throughout the project. For your implementation, please replace it with your own live URL.
 
    ![Creating Tunnel](./assets/tunnel1.PNG)
    ![Tunnel Created](./assets/tunnel2.PNG)
@@ -183,6 +184,25 @@ To make your application accessible from the internet:
    Here’s a screenshot of the Task Manager Assistant GPT:
 
    ![Task Manager Assistant GPT](./assets/gpt.PNG)
+
+## Project Testing
+We will perform all CRUD operations through our custom GPT and then check all changes on our frontend page
+   1. Initialize Todo List with empty bucket
+      ![Task Manager Assistant GPT](./assets/testing1.PNG)
+      ![Task Manager Assistant GPT](./assets/testing1.1.PNG)
+   2. Add Todo - we added "Todo task 1" from CUI and can see manipulation occur at GUI
+      ![Task Manager Assistant GPT](./assets/testing2.1.PNG)
+      ![Task Manager Assistant GPT](./assets/testing2.2.PNG)
+   3. Update Todo - Add another Todo and make changes in it
+      ![Task Manager Assistant GPT](./assets/testing3.PNG)
+      ![Task Manager Assistant GPT](./assets/testing3.1.PNG)
+      ![Task Manager Assistant GPT](./assets/testing3.2.PNG)
+      ![Task Manager Assistant GPT](./assets/testing3.3.PNG)
+   4. Delete Todo - Delete "Todo task 3" todo
+      ![Task Manager Assistant GPT](./assets/testing4.1.PNG)
+      ![Task Manager Assistant GPT](./assets/testing4.2.PNG)
+   5. Get Todo - Show all todos
+      ![Task Manager Assistant GPT](./assets/testing5.PNG)
 
 ## Troubleshooting
 
