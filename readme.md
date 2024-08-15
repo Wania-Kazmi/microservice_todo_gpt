@@ -168,7 +168,7 @@ To make your application accessible from the internet:
 
    The Cloudflare Tunnel will provide you with a URL like `https://your-tunnel-name.trycloudflare.com`, which you can use as the public endpoint.
 
-   <b>Note:</b> I used custom domain link of cloudflare, in this case my domain link will be persistent.
+   <b>Note:</b> I used custom domain link of cloudflare, in this case my domain link will be persistent that is https://web.wania.xyz/.
 
    ![Creating Tunnel](./assets/tunnel1.PNG)
    ![Tunnel Created](./assets/tunnel2.PNG)
