@@ -61,9 +61,7 @@ services:
 
   cloudflared:
     image: cloudflare/cloudflared:latest
-    command: tunnel run
-    environment:
-      - TUNNEL_URL=http://backend:8001
+    command: tunnel --no-autoupdate run --token eyJhIjoiZDMzNTY4NDQ1ZDlmYjdlNDMwMTgzOThjOGIwY2M5OGEiLCJ0IjoiMWU2NDU1NDctZmM1NC00MWIzLWJhMzgtMzM1ZGVmMjBiOTBhIiwicyI6Ik1XWTNNMk5qTnpZdE1UTmtOUzAwTURsaExXRXpPREV0WkdVelpqWmlOV1ZoWXprdyJ9
     volumes:
       - ./cloudflared:/etc/cloudflared
     depends_on:
