@@ -19,7 +19,7 @@ This project is a full-stack Todo application built using FastAPI for the backen
 7. [Deploying with Cloudflare Tunnel](#deploying-with-cloudflare-tunnel)
 8. [Troubleshooting](#troubleshooting)
 9. [Contributing](#contributing)
-10. [License](#license)
+
 
 ## Project Overview
 
@@ -184,10 +184,4 @@ To make your application accessible from the internet:
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ---
-
-This README should now reflect the correct project structure, including instructions on how to start the application, and how to set up Cloudflare Tunnel for a persistent URL.
